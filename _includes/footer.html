@@ -1,5 +1,12 @@
 <footer class="footer">
-  &copy; {{ site.year_from }}-{{ site.time | date: "%Y" }}
-  <a href="{{ site.author.homepage | relative_url }}">{{ site.author.name }}</a>.  All rights reserved.  This website is built using
-  <a href="https://jekyllrb.com/">Jekyll</a>.
+  &copy;
+  {% if site.year_from and site.year_from != site.time | date: "%Y" %}
+    {{ site.year_from }}–
+  {% endif %}
+  {{ site.time | date: "%Y" }}
+
+  <a href="{{ site.baseurl | prepend: site.url }}">
+    {{ site.author.name }}
+  </a>.
+  All rights reserved.
 </footer>
