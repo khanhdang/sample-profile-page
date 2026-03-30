@@ -16,7 +16,7 @@ All layouts are written in pure HTML with simple CSS.
 
 1. Visit the repository:  
    https://github.com/khanhdang/sample-profile-page
-2. Fork it to a new repository (make it public).
+2. Fork it to a new repository (make it public). If you want to host it at `your-github-username.github.io`, please name the repository as `your-github-username.github.io`. Note: please change `your-github-username` as your actual GitHub username. For example, this repository [https://github.com/khanhdang/khanhdang.github.io](https://github.com/khanhdang/khanhdang.github.io) hosts the Github page: [https://khanhdang.github.io/](https://khanhdang.github.io/)
 3. Edit the information in `_config.yml` and the page `index.md`.
 4. In your repository, go to **Settings → Pages**.
 5. Select the branch (default: `main`) to enable GitHub Pages.
