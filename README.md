@@ -10,7 +10,15 @@ Some features (or maybe not really features at all):
 - Mobile friendly with adaption
 - Lightweight 
 
-# Run
+
+## How to use
+
+1. Visit the repository at [https://github.com/khanhdang/sample-profile-page](https://github.com/khanhdang/sample-profile-page)
+2. Fork it to a new repository (make it public)
+3. Edit the information in `_config.yml` and the page at `index.md`.
+4. Wait for github page to be built.
+
+## Run locally
 
 Jekyll and bundle need to be installed.
 ```
